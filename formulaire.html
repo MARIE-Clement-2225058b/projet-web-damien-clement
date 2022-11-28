@@ -14,20 +14,21 @@
         <form id="form" action="" method="post" enctype="text/plain">
         	<p>
         		<label for="prenom">Prénom</label>
-        		<input placeholder="Veuillez saisir un nom valide composée de lettres" required="required" pattern="[a-z]" id="prenom" type="text" name="prenom" value=" ">
+        		<input placeholder="Veuillez saisir un prénom valide composée de lettres" required="required" pattern="[a-z]" id="prenom" type="text" name="prenom" value=" ">
         		<label for="nom">Nom</label>
-        		<input required="required" pattern="[a-z]" id="nom" type="text" name="nom" value=" ">
+        		<input placeholder="Veuillez saisir un nom valide composée de lettres" required="required" pattern="[a-z]" id="nom" type="text" name="nom" value=" ">
         		<select name="sexe">
-                    <option>homme</option>
-                    <option>femme</option>
+                    <option>Par défaut</option>
+                    <option>Homme</option>
+                    <option>Femme</option>
                 </select>
-                <input type="checkbox">J'accepte les conditions d'utilisation</imput>
+                <input required="required" type="checkbox">J'accepte les conditions d'utilisation</imput>
                 <label for="mail">Adresse e-mail</label>
-                <input required="required" pattern="[a-z]" id="mail" type="email" name="mail" value=" ">
+                <input required="required" pattern="[a-z]+[@]" id="mail" type="email" name="mail" value=" ">
                 <label for="numTel"> Numéro de téléphone</label>
-                <input required="required" pattern="[0-9]" id="numTel" type="tel" name="numTel" value=" ">
+                <input required="required" pattern="[0-9] {10}" id="numTel" type="tel" name="numTel" value=" ">
                 <label for="nomUtilisateur">Nom d'utilisateur</label>
-        		<input required="required" pattern="[a-z]+[0-9] {30}" id="nomUtilisateur" type="text" name="nomUtilisateur" value=" ">
+        		<input required="required" pattern="[a-z]+[0-9] {15}" id="nomUtilisateur" type="text" name="nomUtilisateur" value=" ">
         		<label for="password">Mot de passe</label>
         		<input required="required" pattern="[a-z]+[0-9]+[^/\@#%ù]" id="nomUtilisateur" type="text" name="nomUtilisateur" value=" ">
 
