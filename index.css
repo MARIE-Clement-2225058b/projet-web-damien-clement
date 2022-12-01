@@ -1,0 +1,7 @@
+.head {
+    background: red;
+    border: 1px solid black;
+    -moz-border-radius: 10px; /* Mozilla (Firefox) */
+    -webkit-border-radius: 10px; /* Chrome, Safari, iPhone, Android, etc. */
+    border-radius: 10px; /* Internet Explorer 9, Opera */
+    }
