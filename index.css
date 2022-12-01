@@ -3,6 +3,7 @@ body {
 }
 
 .titre {
+    text-align : center;
     display: absolute;
-    float : both;
+    float : center;
 }
