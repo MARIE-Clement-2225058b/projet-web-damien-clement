@@ -2,8 +2,16 @@ body {
     background-color: rgb(212, 0, 0)!important;;
 }
 
+img {
+    max-width : 100%;
+    height : auto;
+    float : center;
+}
+
 .titre {
     text-align : center;
-    display: absolute;
-    float : center;
+}
+
+.nav{
+    text-align : left;
 }
