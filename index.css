@@ -1,9 +1,3 @@
-body {
+#indexpage {
     background-color: green;
-    }
-    @media screen and (max-width: 600px) {
-    /* Style appliqué uniquement sur les écrans de largeur < 600px */
-    body {
-    background-color: red;
-    }
-    }
+}
