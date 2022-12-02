@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(212, 0, 0)!important;;
+}
+
+img {
+    max-width : 300%;
+    height : auto;
+    float : center;
+}
+
+.titre {
+    text-align : center;
+}
