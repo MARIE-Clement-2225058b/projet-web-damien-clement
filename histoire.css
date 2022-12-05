@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(212, 0, 0)!important;;
+    background-image:url("fond.jpg");
+    background-size: cover;
+    background-size: auto;
+    color: black;
 }
 
 img {
@@ -10,4 +13,14 @@ img {
 
 .titre {
     text-align : center;
+    border: solid black;
+}
+
+section {
+    text-align : center;
+}
+
+footer{
+    text-align : center;
+    border: solid black;
 }

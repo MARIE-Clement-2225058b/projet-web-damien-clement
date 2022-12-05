@@ -20,14 +20,14 @@ section {
     text-align : center;
 }
 
+footer{
+    text-align : center;
+    border: solid black;
+}
+
 nav{
     text-align : left;
     width: 15em;
     border: solid black;
     padding : 8px 12px;
-}
-
-footer{
-    text-align : center;
-    border: solid black;
 }
