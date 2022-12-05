@@ -12,6 +12,9 @@ img {
     text-align : center;
 }
 
-.nav{
+nav{
     text-align : left;
+    width: 15em;
+    border: 1px;
+    padding : 8px 12px;
 }
