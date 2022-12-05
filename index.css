@@ -10,12 +10,21 @@ img {
 
 .titre {
     text-align : center;
-    text-size-adjust: 80%;
+    border: solid black;
+}
+
+section {
+    text-align : center;
 }
 
 nav{
     text-align : left;
     width: 15em;
-    border: 1px solid black;
+    border: solid black;
     padding : 8px 12px;
+}
+
+footer{
+    text-align : center;
+    border: solid black;
 }
