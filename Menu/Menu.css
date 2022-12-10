@@ -1,0 +1,222 @@
+@media (max-width : 1250px) {
+body {
+    background-image:url("../Addons/fond2.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+img {
+    max-width : 100%;
+    height : auto;
+    float : center;
+}
+
+#main {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:0;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: left;    /* Vertical align the elements to the center */
+}
+
+#second {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:1;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: right;    /* Vertical align the elements to the center */
+}
+
+
+
+.container .button2 {
+  background-color: darkred;    /* Green */
+  border: none;
+  color: antiquewhite;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+
+}
+
+
+.container .button2:hover {
+  background-color: indianred;
+}
+
+
+.header {
+   position:fixed;
+   background: red;
+   height:60px;
+   top:0;
+   left:0;
+   right:0;
+}
+.encadrement{
+
+    border: solid black;
+}
+.texte {
+    text-align : center;
+    border: solid black;
+}
+
+.titre {
+    text-align : center;
+    text-decoration-line: underline;
+}
+
+section {
+    text-align : center;
+}
+
+footer{
+    text-align : center;
+    border: solid black;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 1251px) {
+body {
+    background-image:url("../Addons/fond.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+img {
+    max-width : 100%;
+    height : auto;
+    float : center;
+}
+
+#main {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:0;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: left;    /* Vertical align the elements to the center */
+}
+
+#second {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:1;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: middle;    /* Vertical align the elements to the center */
+}
+
+/*
+#third {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:2;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: middle;    /* Vertical align the elements to the center
+}
+
+#forth {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:3;
+   right:0;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: right;     Vertical align the elements to the center 
+}
+*/
+
+
+.container .button2 {
+  background-color: darkred;    /* Green */
+  border: none;
+  color: antiquewhite;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+
+}
+
+.container .button2:hover {
+  background-color: indianred;
+}
+
+
+.header {
+   position:fixed;
+   background: red;
+   height:60px;
+   top:0;
+   left:0;
+   right:0;
+}
+.encadrement{
+
+    border: solid black;
+}
+.texte {
+    text-align : center;
+    border: solid black;
+}
+
+.titre {
+    text-align : center;
+    text-decoration-line: underline;
+}
+
+section {
+    text-align : center;
+}
+
+footer{
+    text-align : center;
+    border: solid black;
+}
+}
+
+

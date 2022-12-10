@@ -1,6 +1,6 @@
 @media (min-width : 751px) {
 body {
-    background-image:url("fond.jpg");
+    background-image:url("../Addons/fond.jpg");
     background-size: 100%;
     background-position: center;
 }
@@ -8,7 +8,7 @@ body {
 
 @media (max-width : 750px) {
 body {
-    background-image:url("fond2.jpg");
+    background-image:url("../Addons/fond2.jpg");
     background-size: 100% cover;
     background-position: center;
 }
@@ -20,14 +20,9 @@ img {
     float : center;
 }
 
-.texte {
-    text-align : center;
-    border: solid black;
-}
-
 .titre {
     text-align : center;
-    text-decoration-line: underline;
+    border: solid black;
 }
 
 section {
@@ -36,4 +31,5 @@ section {
 
 footer{
     text-align : center;
+    border: solid black;
 }

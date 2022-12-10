@@ -1,6 +1,6 @@
 @media (min-width : 751px) {
 body {
-    background-image:url("fond.jpg");
+    background-image:url("../Addons/fond.jpg");
     background-size: 100%;
     background-position: center;
 }
@@ -8,7 +8,7 @@ body {
 
 @media (max-width : 750px) {
 body {
-    background-image:url("fond2.jpg");
+    background-image:url("../Addons/fond2.jpg");
     background-size: 100% cover;
     background-position: center;
 }
