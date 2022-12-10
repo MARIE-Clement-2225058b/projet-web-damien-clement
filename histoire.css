@@ -20,9 +20,14 @@ img {
     float : center;
 }
 
-.titre {
+.texte {
     text-align : center;
     border: solid black;
+}
+
+.titre {
+    text-align : center;
+    text-decoration-line: underline;
 }
 
 section {
@@ -31,5 +36,4 @@ section {
 
 footer{
     text-align : center;
-    border: solid black;
 }

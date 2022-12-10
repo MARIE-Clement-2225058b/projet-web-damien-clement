@@ -23,6 +23,7 @@ img {
 .titre {
     text-align : center;
     border: solid black;
+    text-decoration: underline;
 }
 
 section {
