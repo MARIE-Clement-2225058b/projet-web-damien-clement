@@ -8,19 +8,20 @@
         <title>Formulaire</title>
         <meta charset="utf-8">
         <link rel="icon" href="spidermask.ico" title="icon">
+        <link rel="stylesheet" href="formulaire.css">
     </head>
     <body>
         <h1>Formulaire d'inscription pour devenir Spider-Man : </h1>
         <form id="form" action="" method="post" enctype="text/plain">
         	<p>
         		<label for="prenom">Prénom : </label>
-        		<input placeholder="Prénom" required="required" pattern="[a-z][A-Z]{}" id="prenom" type="text" name="prenom" value="">
+        		<input placeholder="Prénom" required="required" pattern="[a-z][A-Z]{}" id="prenom" type="text" name="prenom" value=""><br>
 
         		<label for="nom">Nom : </label>
-        		<input placeholder="Nom" required="required" pattern="[a-z][A-Z]{}" id="nom" type="text" name="nom" value="">
+        		<input placeholder="Nom" required="required" pattern="[a-z][A-Z]{}" id="nom" type="text" name="nom" value=""><br>
 
                 <label for="age">Âge : </label>
-                <input placeholder="1/2 siècle" required="required" id="age" min="0" type="number" name="age" value="">
+                <input placeholder="1/2 siècle" required="required" id="age" min="0" type="number" name="age" value=""><br>
 
                     Genre : 
         		<select required="required" name="sexe">
@@ -28,29 +29,30 @@
                     <option>Homme</option>
                     <option>Femme</option>
                     <option>Sachet plastique Carrefour</option>
-                </select>
+                </select><br>
 
                 <label for="bornDate">Date de naissance : </label>
-                <input placeholder="01/01/2000" required="required" id=bornDate type="datetime" name="bornDate" value="">
+                <input placeholder="01/01/2000" required="required" id=bornDate type="datetime" name="bornDate" value=""><br>
 
                 <label for="salaire">Salaire : </label>
-                <input placeholder="1200" id="salaire" min="1200" max="1000000000" required="required" type="number" name="salaire" value=""> €
-
-                <input required="required" type="checkbox">J'accepte les conditions d'utilisation : </imput>
+                <input placeholder="1200" id="salaire" min="1200" max="1000000000" required="required" type="number" name="salaire" value=""> €<br>
 
                 <label for="mail">Adresse e-mail : </label>
-                <input placeholder="abc@def.ghi" required="required" pattern="[a-z][@]{}" id="mail" type="email" name="mail" value="">
+                <input placeholder="abc@def.ghi" required="required" pattern="[a-z][@]{}" id="mail" type="email" name="mail" value=""><br>
 
                 <label for="numTel"> Numéro de téléphone : (+33) </label>
-                <input placeholder="06########" required="required" pattern="[0-9]{10}" id="numTel" type="tel" name="numTel" value="">
+                <input placeholder="06########" required="required" pattern="[0-9]{10}" id="numTel" type="tel" name="numTel" value=""><br>
 
                 <label for="nomUtilisateur">Nom d'utilisateur : </label>
-        		<input placeholder="NomD'utilisateur" required="required" pattern="[a-z][A-Z[0-9]{3-15}" id="nomUtilisateur" type="text" name="nomUtilisateur" value="">
+        		<input placeholder="NomD'utilisateur" required="required" pattern="[a-z][A-Z[0-9]{3-15}" id="nomUtilisateur" type="text" name="nomUtilisateur" value=""><br>
 
         		<label for="password">Mot de passe : </label>
-        		<input placeholder="MotDePasse" required="required" pattern="[a-z]+[0-9]+[^/\@#%ù]{4-15}" id="nomUtilisateur" type="password" name="nomUtilisateur" value="">
+        		<input placeholder="MotDePasse" required="required" pattern="[a-z]+[0-9]+[^/\@#%ù]{4-15}" id="nomUtilisateur" type="password" name="nomUtilisateur" value=""><br>
                 Confirmer le mot de passe : 
-                <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+                <input type="password" placeholder="Confirm Password" id="confirm_password" required><br>
+
+                <input required="required" type="checkbox"> J'accepte les conditions d'utilisation</imput><br>
+
 
                 <button type="submit">Enregistrer</button>
             </p>
