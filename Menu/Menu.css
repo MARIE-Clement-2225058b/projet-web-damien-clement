@@ -10,7 +10,17 @@ img {
     float : center;
 }
 
-#main {
+#main { display:none; }
+
+#third { display:none; }
+
+#forth { display:none; }
+
+#fith { display:none; }
+
+#sixth { display:none; }
+
+#second {
 
    position:fixed;
    height:60px;
@@ -20,20 +30,7 @@ img {
   background: darkred;
   display: flex;
   align-items: center;
-  justify-content: left;    /* Vertical align the elements to the center */
-}
-
-#second {
-
-   position:fixed;
-   height:60px;
-   top:0;
-   left:1;
-   right:0;
-  background: darkred;
-  display: flex;
-  align-items: center;
-  justify-content: right;    /* Vertical align the elements to the center */
+  justify-content: center;    /* Vertical align the elements to the center */
 }
 
 
@@ -119,8 +116,8 @@ img {
    position:fixed;
    height:60px;
    top:0;
-   left:0;
-   right:0;
+   left:0px;
+   right:0px;
   background: darkred;
   display: flex;
   align-items: center;
@@ -132,26 +129,26 @@ img {
    position:fixed;
    height:60px;
    top:0;
-   left:1;
-   right:0;
+   left:150px;
+   right:0px;
   background: darkred;
   display: flex;
   align-items: center;
   justify-content: middle;    /* Vertical align the elements to the center */
 }
 
-/*
+
 #third {
 
    position:fixed;
    height:60px;
    top:0;
-   left:2;
-   right:0;
+   left:350px;
+   right:0px;
   background: darkred;
   display: flex;
   align-items: center;
-  justify-content: middle;    /* Vertical align the elements to the center
+  justify-content: middle;    /* Vertical align the elements to the center*/
 }
 
 #forth {
@@ -159,15 +156,39 @@ img {
    position:fixed;
    height:60px;
    top:0;
-   left:3;
-   right:0;
+   left:625px;
+   right:0px;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: middle;     Vertical align the elements to the center 
+}
+
+#fith {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:900px;
+   right:0px;
+  background: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: middle;     Vertical align the elements to the center 
+}
+
+#sixth {
+
+   position:fixed;
+   height:60px;
+   top:0;
+   left:1100px;
+   right:0px;
   background: darkred;
   display: flex;
   align-items: center;
   justify-content: right;     Vertical align the elements to the center 
 }
-*/
-
 
 .container .button2 {
   background-color: darkred;    /* Green */
