@@ -127,7 +127,7 @@ label, #content {
   font-size: xx-large;
   margin-bottom: 10px;
   display: inline-block;
-  position: absolute;
+  position: fixed;
 }
 #menu-toggle {
   display: none;
@@ -139,7 +139,7 @@ label, #content {
   max-height: auto;
   padding: 5px;
   margin: 20px;
-  position: absolute;
+  position: fixed;
   font-size: x-large;
 }
 #menu-toggle:checked + #menu {
@@ -212,7 +212,7 @@ img {
   background: darkred;
   display: flex;
   align-items: center;
-  justify-content: middle;     Vertical align the elements to the center 
+  justify-content: middle;     /*Vertical align the elements to the center */
 }
 
 #fith {
@@ -225,7 +225,7 @@ img {
   background: darkred;
   display: flex;
   align-items: center;
-  justify-content: middle;     Vertical align the elements to the center 
+  justify-content: middle;    /*Vertical align the elements to the center*/
 }
 
 #sixth {
@@ -238,7 +238,7 @@ img {
   background: darkred;
   display: flex;
   align-items: center;
-  justify-content: right;     Vertical align the elements to the center 
+  justify-content: right;     /*Vertical align the elements to the center*/
 }
 
 .container .button2 {
