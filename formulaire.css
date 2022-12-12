@@ -1,6 +1,6 @@
-@media (max-width : 1250px) {
+@media (max-width : 1250px) {   /*mode téléphone*/
 body {
-    background-image:url("../Addons/fond2.jpg");
+    background-image:url("Addons/fond2.jpg");
     background-size: 100%;
     background-position: center;
 }
@@ -8,6 +8,11 @@ img {
     max-width : 100%;
     height : auto;
     float : center;
+}
+
+a {
+    text-decoration: none;
+    color :#F48C06;
 }
 
 #main { display:none; }
@@ -27,16 +32,16 @@ img {
    top:0;
    left:0;
    right:0;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: center;    /* Vertical align the elements to the center */
+  justify-content: center;    
 }
 
 
 
 .container .button2 {
-  background-color: darkred;    /* Green */
+  background-color: #9D0208;    
   border: none;
   color: antiquewhite;
   padding: 0px 0px;
@@ -50,13 +55,13 @@ img {
 
 
 .container .button2:hover {
-  background-color: indianred;
+  background-color: #DC2F02;
 }
 
 
 .header {
-   position:fixed;
-   background: red;
+   position: fixed;
+   background: #D00000;
    height:60px;
    top:0;
    left:0;
@@ -83,6 +88,7 @@ section {
 footer{
     text-align : center;
     border: solid black;
+    align-items: flex-end;
 }
 
 #sept {
@@ -93,10 +99,10 @@ footer{
    top:0;
    left:0;
    right:0;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: flex-start;
-  justify-content: left;    /* Vertical align the elements to the center */
+  justify-content: left;
 }
 
 
@@ -106,9 +112,10 @@ footer{
 }
 
 .dropdown-content {
+    color: white;
   display: none;
   position: absolute;
-  background-color: darkred;
+  background-color: #9D0208;
   min-width: auto;
   font-size: xx-large;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -133,7 +140,7 @@ label, #content {
   display: none;
 }
 #menu {
-  background-color: red;
+  background-color: #D00000;
   width: auto;
   overflow: hidden;
   max-height: auto;
@@ -149,9 +156,9 @@ label, #content {
 }
 }
 
-@media (min-width : 1251px) {
+@media (min-width : 1251px) {   /*Mode Ordinateur*/
 body {
-    background-image:url("../Addons/fond.jpg");
+    background-image:url("Addons/fond.jpg");
     background-size: 100%;
     background-position: center;
 }
@@ -169,10 +176,10 @@ img {
    top:0;
    left:0px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: left;    /* Vertical align the elements to the center */
+  justify-content: left;    
 }
 
 #second {
@@ -182,10 +189,10 @@ img {
    top:0;
    left:150px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: middle;    /* Vertical align the elements to the center */
+  justify-content: middle;    
 }
 
 
@@ -196,10 +203,10 @@ img {
    top:0;
    left:350px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: middle;    /* Vertical align the elements to the center*/
+  justify-content: middle;    
 }
 
 #forth {
@@ -209,10 +216,10 @@ img {
    top:0;
    left:625px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: middle;     /*Vertical align the elements to the center */
+  justify-content: middle;     
 }
 
 #fith {
@@ -222,10 +229,10 @@ img {
    top:0;
    left:900px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: middle;    /*Vertical align the elements to the center*/
+  justify-content: middle;    
 }
 
 #sixth {
@@ -235,14 +242,14 @@ img {
    top:0;
    left:1100px;
    right:0px;
-  background: darkred;
+  background: #9D0208;
   display: flex;
   align-items: center;
-  justify-content: right;     /*Vertical align the elements to the center*/
+  justify-content: right;     
 }
 
 .container .button2 {
-  background-color: darkred;    /* Green */
+  background-color: #9D0208;    
   border: none;
   color: antiquewhite;
   padding: 0px 0px;
@@ -255,13 +262,13 @@ img {
 }
 
 .container .button2:hover {
-  background-color: indianred;
+  background-color: #DC2F02;
 }
 
 
 .header {
    position:fixed;
-   background: red;
+   background: #D00000;
    height:60px;
    top:0;
    left:0;
@@ -289,6 +296,11 @@ footer{
     text-align : center;
     border: solid black;
 }
+
+a {
+    color: #E85D04;
+}
+
 
 #content { display: none;
 }
