@@ -16,7 +16,7 @@
       font-family: cursive;
   }
 
-    .totheleft{
+  .totheleft{
     display: flex;
     justify-content: left;
     text-align: left;
