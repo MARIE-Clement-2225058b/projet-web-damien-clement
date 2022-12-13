@@ -171,6 +171,7 @@ video{
 
 form{
   font-family: cursive;
+  float : center;
 }
 
 }
@@ -185,6 +186,7 @@ body {
 
 form{
   font-family: cursive;
+  float : center;
 }
 
 .underline {
