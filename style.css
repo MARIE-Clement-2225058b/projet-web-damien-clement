@@ -98,7 +98,7 @@ footer{
 #sept {
 
    position:relative;
-   z-index:-1
+   z-index:-1;
    height:0px;
    top:0;
    left:0;
@@ -334,10 +334,12 @@ a {
 }
 
 
-#content { display: none;
+#content { 
+  display: none;
 }
 #menu-toggle {
   display: none;
 }
-#menu { display: none;
+#menu {
+   display: none;
 }
