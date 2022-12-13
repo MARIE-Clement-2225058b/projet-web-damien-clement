@@ -161,6 +161,10 @@ video{
   float : center;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 }
 
 @media (min-width : 1251px) {   /*Mode Ordinateur*/
@@ -169,6 +173,10 @@ body {
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 *{
