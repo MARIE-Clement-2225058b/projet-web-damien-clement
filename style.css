@@ -16,6 +16,12 @@
       font-family: cursive;
   }
 
+    .totheleft{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+  }
+
   #main { display:none; }
 
   #third { display:none; }
@@ -352,6 +358,7 @@
   .totheleft{
     display: flex;
     justify-content: left;
+    text-align: left;
   }
 
   #content { 
