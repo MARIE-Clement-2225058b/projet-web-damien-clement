@@ -171,9 +171,6 @@ video{
 
 form{
   font-family: cursive;
-  float : center;
-}
-
 }
 
 @media (min-width : 1251px) {   /*Mode Ordinateur*/
@@ -186,7 +183,6 @@ body {
 
 form{
   font-family: cursive;
-  float : center;
 }
 
 .underline {
