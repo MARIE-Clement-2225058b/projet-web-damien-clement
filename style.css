@@ -74,21 +74,25 @@ a {
 .texte {
     text-align : center;
     border: solid black;
+    font-family: cursive;
 }
 
 .titre {
     text-align : center;
     text-decoration-line: underline;
+    font-family: cursive;
 }
 
 section {
     text-align : center;
+    font-family: cursive;
 }
 
 footer{
     text-align : center;
     border: solid black;
     align-items: flex-end;
+    font-family: cursive;
 }
 
 #sept {
@@ -307,20 +311,24 @@ img {
 .texte {
     text-align : center;
     border: solid black;
+    font-family: cursive;
 }
 
 .titre {
     text-align : center;
     text-decoration-line: underline;
+    font-family: cursive;
 }
 
 section {
     text-align : center;
+    font-family: cursive;
 }
 
 footer{
     text-align : center;
     border: solid black;
+    font-family: cursive;
 }
 
 a {
