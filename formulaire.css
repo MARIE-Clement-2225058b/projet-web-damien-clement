@@ -164,8 +164,8 @@ body {
     background-attachment: fixed;
 }
 
-html{
-  cursor: url("/Addons/curseur2.svg");
+*{
+  cursor: url('Addons/curseur2.svg') 19 10, auto;
 }
 
 img {
