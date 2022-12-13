@@ -169,6 +169,10 @@ video{
   text-decoration: underline;
 }
 
+form{
+  font-family: cursive;
+}
+
 }
 
 @media (min-width : 1251px) {   /*Mode Ordinateur*/
@@ -177,6 +181,10 @@ body {
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
+}
+
+form{
+  font-family: cursive;
 }
 
 .underline {
