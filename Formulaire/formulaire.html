@@ -52,15 +52,18 @@
 <br><br><br>
     <body>
         <h1 class="titre">Formulaire d'inscription pour devenir Spider-Man : </h1>
-        <form id="form" action="" method="post" action="mailto:clement.marie.1@etu.univ-amu.fr" enctype="text/plain">
+        <form id="formular" action="" method="post" action="mailto:clement.marie.1@etu.univ-amu.fr" enctype="text/plain">
         	<p>
-        		<label for="prenom">Prénom : </label>
+        		Prénom : 
+                <label for="prenom"></label>
         		<input placeholder="Prénom" required="required" pattern="[a-z][A-Z]{}" id="prenom" type="text" name="prenom" value=""><br>
 
-        		<label for="nom">Nom : </label>
+        		Nom : 
+                <label for="nom"></label>
         		<input placeholder="Nom" required="required" pattern="[a-z][A-Z]{}" id="nom" type="text" name="nom" value=""><br>
 
-                <label for="age">Âge : </label>
+                Âge :
+                <label for="age"> </label>
                 <input placeholder="1/2 siècle" required="required" id="age" min="0" type="number" name="age" value=""><br>
 
                     Genre : 
@@ -71,22 +74,28 @@
                     <option>Sachet plastique Carrefour</option>
                 </select><br>
 
-                <label for="bornDate">Date de naissance : </label>
+                Date de naissance : 
+                <label for="bornDate"></label>
                 <input placeholder="01/01/2000" required="required" id=bornDate type="datetime" name="bornDate" value=""><br>
 
-                <label for="salaire">Salaire : </label>
+                Salaire : 
+                <label for="salaire"></label>
                 <input placeholder="1200" id="salaire" min="1200" max="1000000000" required="required" type="number" name="salaire" value=""> €<br>
 
-                <label for="mail">Adresse e-mail : </label>
+                Adresse e-mail : 
+                <label for="mail"></label>
                 <input placeholder="abc@def.ghi" required="required" pattern="[a-z][@]{}" id="mail" type="email" name="mail" value=""><br>
 
-                <label for="numTel"> Numéro de téléphone : (+33) </label>
+                Numéro de téléphone : (+33) 
+                <label for="numTel"> </label>
                 <input placeholder="06########" required="required" pattern="[0-9]{10}" id="numTel" type="tel" name="numTel" value=""><br>
 
-                <label for="nomUtilisateur">Nom d'utilisateur : </label>
+                Nom d'utilisateur : 
+                <label for="nomUtilisateur"></label>
         		<input placeholder="NomD'utilisateur" required="required" pattern="[a-z][A-Z[0-9]{3-15}" id="nomUtilisateur" type="text" name="nomUtilisateur" value=""><br>
 
-        		<label for="password">Mot de passe : </label>
+        		Mot de passe : 
+                <label for="password"></label>
         		<input placeholder="MotDePasse" required="required" pattern="[a-z]+[0-9]+[^/\@#%ù]{4-15}" id="nomUtilisateur" type="password" name="nomUtilisateur" value=""><br>
                 Confirmer le mot de passe : 
                 <input type="password" placeholder="Confirm Password" pattern="[a-z]+[0-9]+[^/\@#%ù]{4-15}" id="confirm_password" required><br>

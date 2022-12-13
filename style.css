@@ -171,8 +171,11 @@
 
   form{
     font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
+  
 }
 @media (min-width : 1251px) {   /*Mode Ordinateur*/
   body {
@@ -184,6 +187,9 @@
 
   form{
     font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .underline {
