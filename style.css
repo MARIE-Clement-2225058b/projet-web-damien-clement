@@ -13,6 +13,7 @@
   a {
       text-decoration: none;
       color :#F48C06;
+      font-family: cursive;
   }
 
   #main { display:none; }
@@ -340,10 +341,15 @@
       text-align : center;
       border: solid black;
       font-family: cursive;
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      color: #fff;
   }
 
   a {
       color: #E85D04;
+      font-family: cursive;
   }
 
 
