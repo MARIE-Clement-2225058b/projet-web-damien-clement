@@ -164,6 +164,10 @@ body {
     background-attachment: fixed;
 }
 
+html{
+  cursor: url("/Addons/curseur2.svg");
+}
+
 img {
     max-width : 100%;
     height : auto;
