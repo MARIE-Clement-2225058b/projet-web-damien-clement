@@ -154,6 +154,13 @@ label, #content {
   position: absolute;
   font-size: x-large;
 }
+
+video{
+  max-width : 100%;
+  height: auto;
+  float : center;
+}
+
 }
 
 @media (min-width : 1251px) {   /*Mode Ordinateur*/
@@ -166,6 +173,12 @@ body {
 
 *{
   cursor: url('Addons/curseur.svg') 19 10, auto;
+}
+
+video{
+  max-width : 100%;
+  height: auto;
+  float : center;
 }
 
 img {
